@@ -1,0 +1,162 @@
+body {
+}
+.navbar-default {
+		background:#f1f1f1;
+		opacity:0.85;
+}
+.navbar-brand {
+		margin-top:-20px;
+}
+#progress {
+		height:0px;
+		width:0px;
+		background:#66ffcc;
+}
+header {
+		margin-top:-20px;
+}
+.header-bar {
+		width:25%;
+		margin-top:200px;
+		margin-left:100px;
+		opacity:.7;
+}
+.content {
+		height:500px;
+		background:url('../image/3.jpg') no-repeat;
+}
+.tabs {
+		margin-top:5px;
+}
+#masonry {
+		margin-top:20px;
+		position:relative;
+}
+.box {
+		margin-bottom: 20px;
+		float: left;
+		width: 220px;
+}
+.box:hover {
+		box-shadow:3px 5px 10px #ccc;
+		cursor:pointer;
+}
+.box img {
+		max-width: 100%
+}
+.masonty:hover {
+}
+.masonry-tab {
+		border:1px solid #ccc;
+		padding-bottom:5%;
+}
+.masonry span:nth-child(1) {
+		position:absolute;
+		top:8%;
+		left:-5%;
+		max-width:100%;
+		margin-top:-20px;
+		font-size:24px;
+		font-weight:bold;
+		opacity:.7;
+}
+.masonry span:nth-child(n+6) {
+		font-size:18px;
+}
+.masonry-blank {
+		border:1px solid #ccc;
+		border-bottom:none;
+		height:300px;
+}
+#tab-1 {
+		display:none;
+}
+.load-more {
+		display:block;
+		margin:5px auto;
+		width:150px;
+}
+.container {
+}
+article {
+		margin-top:10%;
+}
+article td:first-child  {
+		width:20%;
+}
+/** avatar **/
+.avatarInput {
+		width:60%;
+}
+.avatar {
+		width:240px;
+		height:240px;
+}
+.avatar img {
+		box-shadow:0 5px 10px #ccc;
+		margin-left:80%;
+}
+.avatar p {
+		margin-left:55%;
+		margin-top:5%;
+}
+.profile {
+		font-size:16px;
+		margin-top:3%;
+}
+.profile .btn {
+		margin-top:2%;
+}
+
+footer {
+		margin-top:5%;
+		text-align:center;
+		background:#f1f1f1;
+		padding-top:5px;
+		padding-bottom:5px;
+}
+footer h4 {
+}
+/** profile **/
+.trigger {
+		text-align:center;
+}
+/** article **/
+.inputInline {
+		display:inline;
+		width:100px;
+}
+.inputLong {
+		width:50%;
+}
+.inputMiddle {
+		width:40%;
+}
+.textarea {
+		height:300px;
+}
+.postSubmit {
+		width:50%;
+		display:block;
+		margin:0 auto;
+}
+/** page **/
+.pageContent {
+		padding-top:2%;
+		padding-bottom:2%;
+}
+/** comment **/
+#comment {
+		margin-top:3%;
+}
+#commentArea .btn {
+		margin-top:3%;
+}
+
+
+
+img.media-object {
+		width:64px;
+		height:64px;
+		border-radius:50%;
+}
